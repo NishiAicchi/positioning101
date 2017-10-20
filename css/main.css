@@ -1,0 +1,123 @@
+#cont_1 {
+    box-sizing: border-box;
+}
+/* elementos estaticos*/
+.box_1 {
+    /*aplicamos un color de fondo */
+    background: #44accf;
+    width: 200px;
+    height: 200px;
+    position: static;
+    margin-top: 20px;
+}
+
+.box_2 {
+    /*aplicamos un color de fondo */
+    background: #ee3e64;
+    width: 200px;
+    height: 200px;
+    position: static;
+}
+
+.box_3 {
+    /*aplicamos un color de fondo */
+    background: #b7d84b;
+    width: 200px;
+    height: 200px;
+    position: static;
+    margin-bottom: 20px;
+}
+
+.box_4 {
+    /*aplicamos un color de fondo */
+    background: #ee3e64;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.box_5 {
+    /*aplicamos un color de fondo */
+    background: #44accf;
+    /*establecemos el alto y el ancho*/
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.box_6 {
+    /*aplicamos un color de fondo */
+    background: #b7d84b;
+    /*establecemos el alto y el ancho*/
+    width: 200px;
+    height: 200px;
+    /*esta es la posicion relative la cual sin asignarle propiedades es igual como la posicion static*/
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.box_7 {
+    /*aplicamos un color de fondo */
+    background: #ee3e64;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+}
+/* modificamos la posicion relative, por medio de sus propiedades */
+.box_8 {
+    /*aplicamos un color de fondo */
+    background: #44accf;
+    /*establecemos el alto y el ancho*/
+    width: 200px;
+    height: 200px;
+    left: 200px;
+    /*left nos permite mover desde su posicion actual hasta la derecha*/
+    position: relative;
+}
+
+.box_9 {
+    /*aplicamos un color de fondo */
+    background: #b7d84b;
+    /*establecemos el alto y el ancho*/
+    width: 200px;
+    height: 200px;
+    /*esta es la posicion relative la cual sin asignarle propiedades es igual como la posicion static*/
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.box_10 {
+    background: #ee3e64;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.box_11 {
+    background: #44accf;
+    /*establecemos el alto y el ancho*/
+    width: 200px;
+    height: 200px;
+    left: 200px;
+    /*left nos permite mover desde su posicion actual hasta la derecha*/
+    position: relative;
+}
+
+.box_12 {
+    background: #b7d84b;
+    /*establecemos el alto y el ancho*/
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+a {
+    font-family: 'roboto', sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
